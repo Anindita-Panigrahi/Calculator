@@ -1,0 +1,52 @@
+body{
+    padding-left: 40%;
+}
+.main{
+    text-align: center;
+    border: 2px solid black;
+    width: 300px;
+    border-radius: 10px;
+    background-color: black;
+    
+    
+}
+.buttonz{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px;
+    padding: 13px;
+    gap: 8px;
+   
+}
+.button{
+    padding: 8px;
+    color: black;
+    font-size: large;
+    border-radius: 0.5em;
+}
+.button:hover{
+    background-color: #ffb158;
+}
+/* .button_span2{
+    grid-row: span 2;
+    background-color: #fb5607;
+    font-size: large;
+    border-radius: 0.5em;
+}
+
+
+.button_long{
+    grid-column: span 2;
+    background-color: #fb5607;
+    font-size: large;
+    border-radius: 0.5em;
+} */
+input{
+    width:90%;
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 70px;
+    margin-top: 10px;
+    color: black;
+    
+}
